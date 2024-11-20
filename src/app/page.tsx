@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import profilePic from "../../public/01.png"; // Replace with your image
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 import bannerPic from "../../public/02.png";
 import bannerPic2 from "../../public/03.jpg";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
@@ -297,8 +297,7 @@ export default function Home() {
       </div>
       <div className="bg-purple-50 w-full overflow-hidden">
         <div className="py-10 transform -rotate-2">
-          <Marquee gradient={false} speed={50}>
-            <div className="flex items-center space-x-8 text-purple-700 font-bold text-[20px] ">
+        <div className="flex items-center space-x-8 text-purple-700 font-bold text-[20px] ">
               <span>DESIGN</span>
               <span className="text-xl animate-spin">✶</span>
               <span>DEVELOPMENT</span>
@@ -316,7 +315,6 @@ export default function Home() {
               <span>GRAPHIC</span>
               <span className="text-xl animate-spin">✶</span>
             </div>
-          </Marquee>
         </div>
       </div>
       <section className="text-center py-12 bg-gradient-to-b from-purple-50 to-white">
